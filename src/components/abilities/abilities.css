@@ -1,0 +1,37 @@
+.abilities .container-abilities {
+    text-align: center;
+    justify-content: center;
+}
+
+.abilities .container-abilities .skill {
+    max-width: 35rem;
+    padding: 4rem 2rem;
+    transition: 0.2s ease;
+}
+
+.abilities .container-abilities .skill:hover {
+    color: var(--cor-primaria)
+}
+
+.abilities .container-abilities .skill p,
+.abilities .container-abilities .skill h3,
+.abilities .container-abilities .skill .logo i {
+    transition: 0.3s ease;
+    cursor: default;
+}
+
+.abilities .container-abilities .skill h3 {
+    color: var(--cor-primaria);
+    font-size: var(--font-extra-grande);
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.abilities .container-abilities .skill p {
+    font-size: 1.8rem;
+    font-family: var(--font-secundaria);
+}
+
+.abilities .container-abilities .skill .logo i {
+    font-size: 8rem;
+}

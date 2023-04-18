@@ -1,0 +1,21 @@
+:root {
+    --cor-primaria: #ee20ee;
+    --cor-secundaria: #318083;
+    --cor-branca: #fff;
+    --cor-fundo-escuro: #040203;
+    --cor-fundo-cinza-escuro: #282828;
+    --cor-fundo-cinza-claro: #353535;
+}
+
+:root {
+    --font-primaria: 'Poppins', sans-serif;
+    --font-secundaria: 'Raleway', sans-serif;
+    --font-gigante: 4.5rem;
+    --font-extra-grande: 3rem;
+    --font-grande: 2.4rem;
+    --font-normal: 1.6rem;
+}
+
+:root {
+    --mobile-padding: 30px;
+}

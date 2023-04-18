@@ -1,0 +1,47 @@
+.about-me .about-me-img {
+    max-width: 40%;
+    padding: 0 1.5rem;
+}
+
+.about-me .about-me-img .img-box {
+    padding: 1.5rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.about-me .about-me-img img {
+    border: 1rem solid transparent;
+    border-radius: 5px;
+}
+
+.about-me .about-me-info {
+    max-width: 50%;
+    padding: 0 2.5rem;
+}
+
+.about-me .about-me-info .buttons {
+    margin-top: 5rem;
+}
+
+.about-me .about-me-info p {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+@media(max-width: 980px) {
+    .about-me .row {
+        justify-content: center;
+    }
+
+    .about-me .about-me-img {
+        max-width: 100%;
+        padding: 0 var(--mobile-padding);
+        margin-bottom: 5rem;
+    }
+
+    .about-me .about-me-info {
+        padding: 0 var(--mobile-padding);
+        text-align: center;
+        max-width: 100%;
+    }
+}
