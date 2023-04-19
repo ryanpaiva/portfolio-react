@@ -26,7 +26,7 @@ const Abilities = () => {
                         <i><SiHtml5 /></i>
                     </div>
                     <h3>HTML5</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam molestias quia laboriosam</p>
+                    <p>Tenho experiência em HTML e compreendo conceitos como tags, atributos, elementos de formulário, estrutura básica de um documento HTML, semântica e responsividade.</p>
                 </div>
 
                 <div className="skill">
@@ -34,7 +34,7 @@ const Abilities = () => {
                         <i><SiCss3 /></i>
                     </div>
                     <h3>CSS3</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam molestias quia laboriosam</p>
+                    <p>Com minha experiência em CSS, tenho conhecimento em seletores, propriedades, box model, layout, posicionamento, responsividade, animações e transições.</p>
                 </div>
 
                 <div className="skill">
@@ -42,7 +42,7 @@ const Abilities = () => {
                         <i><SiGithub /></i>
                     </div>
                     <h3>GitHub</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam molestias quia laboriosam</p>
+                    <p>Com minha experiência em GitHub, possuo conhecimento em controle de versão, utilização de branches, pull requests, issues, além de ter entendimento sobre a importância da colaboração e do trabalho em equipe.</p>
                 </div>
 
                 <div className="skill">
@@ -50,7 +50,7 @@ const Abilities = () => {
                         <i><FaGitAlt /></i>
                     </div>
                     <h3>Git</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam molestias quia laboriosam</p>
+                    <p>Com minha experiência em Git, possuo conhecimento em controle de versão, criação de repositórios locais, utilização de branches, commits, merge e rebase. </p>
                 </div>
 
                 <div className="skill">
@@ -58,7 +58,7 @@ const Abilities = () => {
                         <i><FaReact /></i>
                     </div>
                     <h3>ReactJS</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam molestias quia laboriosam</p>
+                    <p>Em ReactJS, possuo conhecimento em componentes, estados, propriedades, ciclo de vida, utilização de hooks, gerenciamento de rotas, consumo de APIs, além de ter entendimento sobre a importância da modularidade e da escalabilidade em projetos front-end.</p>
                 </div>
 
                 <div className="skill">
@@ -66,7 +66,7 @@ const Abilities = () => {
                         <i><SiJest /></i>
                     </div>
                     <h3>Jest</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam molestias quia laboriosam</p>
+                    <p>Em Jest, possuo conhecimento em testes unitários. Entendo a importância de testes automatizados para garantir a qualidade do código e estou sempre buscando aprender mais e aprimorar minhas habilidades para criar testes mais eficientes e abrangentes.</p>
                 </div>
             </div>
 
