@@ -36,7 +36,7 @@ const AboutMe = () => {
                         </p>
 
                         <div className="buttons">
-                            <a href="https://drive.google.com/file/d/1EKSuhiaiicSBtr1gCUwfmaJcx5kNBDu8/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" className="button outer-shadow">
+                            <a href={process.env.PUBLIC_URL + '/archives/RyanTúlioPaiva_DevFrontEnd.pdf'} target="_blank" rel="noopener noreferrer" className="button outer-shadow">
                                 Veja meu CV
                             </a>
                         </div>
