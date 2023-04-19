@@ -32,7 +32,7 @@ const AboutMe = () => {
                         </p>
 
                         <p>
-                            Ah, eu também gosto de jogos, filmes, séries, músicas e outras coisas. 💜
+                            Além do desenvolvimento web, também sou um grande apreciador de jogos, filmes, séries, músicas e outras formas de arte.  💜
                         </p>
 
                         <div className="buttons">
