@@ -3,6 +3,7 @@ import './home.css'
 import '../globals.css'
 import '../reset.css'
 import '../variables.css'
+import { fotoPerfil } from "../../assets"
 
 const Home = () => {
     return (
@@ -20,7 +21,7 @@ const Home = () => {
 
                             <div class="img-home">
                                 <div class="img-box inner-shadow">
-                                    <img src="http://placekitten.com/400/500" alt="foto do perfil" class="outer-shadow" />
+                                    <img src={fotoPerfil} alt="foto do perfil" class="outer-shadow" />
                                 </div>
                             </div>
 

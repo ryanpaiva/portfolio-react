@@ -1,3 +1,4 @@
+import { fotoPerfil } from '../../assets'
 import './about-me.css'
 
 
@@ -15,7 +16,7 @@ const AboutMe = () => {
                 <div className="row">
                     <div className="about-me-img">
                         <div className="img-box inner-shadow">
-                            <img src="http://placekitten.com/400/500" alt="foto do perfil" className="outer-shadow" />
+                            <img src={fotoPerfil} alt="foto do perfil" className="outer-shadow" />
                         </div>
                     </div>
 

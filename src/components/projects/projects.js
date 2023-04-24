@@ -1,3 +1,4 @@
+import { climaProject, gitApiProject, pokedexProject, youProject } from '../../assets'
 import './projects.css'
 
 const Projects = () => {
@@ -13,7 +14,7 @@ const Projects = () => {
                 <div class="container-projects container">
                     <div class="project">
                         <a href="https://ryanpaiva.github.io/projeto-you/" target='_blank' rel="noopener noreferrer">
-                            <img src={process.env.PUBLIC_URL + '/assets/you-project-photo.png'} alt="projeto you" />
+                            <img src={youProject} alt="projeto you" />
                             <h3>You Carrossel</h3>
                             <div class="informations-project">
                                 <p>Projeto de carrossel de imagens sobre a série da Netflix You. Neste projeto foram utilizadas Técnologias como HTML, CSS e JavaScript.</p>
@@ -24,7 +25,7 @@ const Projects = () => {
 
                     <div class="project">
                         <a href="https://ryanpaiva.github.io/projeto-clima/" target='_blank' rel="noopener noreferrer">
-                            <img src={process.env.PUBLIC_URL + '/assets/clima-project-photo.png'} alt="projeto busca clima" />
+                            <img src={climaProject} alt="projeto busca clima" />
                             <h3>Buscar Clima</h3>
                             <div class="informations-project">
                                 <p>Neste projeto fui desafiado a utilizar uma API para consultar o clima de qualquer lugar do mundo.</p>
@@ -35,7 +36,7 @@ const Projects = () => {
 
                     <div class="project">
                         <a href="https://ryanpaiva.github.io/github-api-search/" target='_blank' rel="noopener noreferrer">
-                            <img src={process.env.PUBLIC_URL + '/assets/github-api-photo.png'} alt="Projeto GitHub API" />
+                            <img src={gitApiProject} alt="Projeto GitHub API" />
                             <h3>GitHub Search</h3>
                             <div class="informations-project">
                                 <p>Com estudos no curso DevQuest, fiz um desafio de criar uma página e utilizar a API do GitHub para buscar informações de qualquer usuário.</p>
@@ -46,7 +47,7 @@ const Projects = () => {
 
                     <div class="project">
                         <a href="https://pokedex-api-project-seven.vercel.app" target='_blank' rel="noopener noreferrer">
-                            <img src={process.env.PUBLIC_URL + '/assets/pokedex-api.png'} alt="nome do projeto" />
+                            <img src={pokedexProject} alt="nome do projeto" />
                             <h3>Pokedex</h3>
                             <div class="informations-project">
                                 <p>No projeto Pokedex tive o imenso desafio de criar uma aplicação em React e consumir uma API para mostar na tela essas criaturinhas que todo mundo ama.</p>
