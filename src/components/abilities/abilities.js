@@ -1,5 +1,5 @@
-import { FaGitAlt, FaReact } from "react-icons/fa"
-import { SiCss3, SiGithub, SiHtml5, SiJavascript, SiJest } from "react-icons/si"
+import { FaGitAlt, FaNodeJs, FaReact } from "react-icons/fa"
+import { SiCss3, SiExpress, SiGithub, SiHtml5, SiJavascript, SiJest, SiPostgresql } from "react-icons/si"
 import './abilities.css'
 import '../globals.css'
 
@@ -67,6 +67,30 @@ const Abilities = () => {
                     </div>
                     <h3>Jest</h3>
                     <p>Em Jest, possuo conhecimento em testes unitários. Entendo a importância de testes automatizados para garantir a qualidade do código e estou sempre buscando aprender mais e aprimorar minhas habilidades para criar testes mais eficientes e abrangentes.</p>
+                </div>
+
+                <div className="skill">
+                    <div className="logo">
+                        <i><SiPostgresql /></i>
+                    </div>
+                    <h3>PostgreSQL</h3>
+                    <p>Tenho conhecimentos em PostgreSQL, um sistema de gerenciamento de banco de dados relacional. Compreendo a importância de estruturar dados de forma eficiente para a construção de aplicativos robustos e escaláveis.</p>
+                </div>
+
+                <div className="skill">
+                    <div className="logo">
+                        <i><FaNodeJs /></i>
+                    </div>
+                    <h3>NodeJS</h3>
+                    <p>Tenho conhecimentos em NodeJS, um ambiente de tempo de execução JavaScript que permite a construção de aplicativos de servidor escaláveis e eficientes. Entendo como utilizar o JavaScript para manipular o sistema de arquivos, executar operações assíncronas, criar servidores HTTP, trabalhar com sockets, e outras tarefas comuns em aplicativos de servidor.</p>
+                </div>
+
+                <div className="skill">
+                    <div className="logo">
+                        <i><SiExpress /></i>
+                    </div>
+                    <h3>ExpressJS</h3>
+                    <p>Tenho conhecimentos em ExpressJS, um framework de NodeJS para a construção de aplicativos de servidor. Compreendo como utilizar o ExpressJS para criar rotas, manipular requisições HTTP, gerenciar sessões de usuário, implementar autenticação e autorização, entre outras tarefas comuns em aplicativos de servidor. Também entendo a importância de modularizar o código para facilitar a manutenção e escalabilidade do projeto.</p>
                 </div>
             </div>
 
