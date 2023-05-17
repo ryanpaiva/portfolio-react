@@ -1,8 +1,20 @@
-.header {
-    padding: 3rem 1.5rem;
+header {
+    padding: 2rem 1.5rem;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 110px;
+    background: transparent;
+    transition: 0.3s ease;
 }
 
-.header .logo {
+header.scrollBlack{
+    background-color: #141414;
+}
+
+header .logo {
     font-family: var(--font-secundaria);
     font-size: var(--font-extra-grande);
     border: 2px solid var(--cor-branca);
@@ -15,16 +27,16 @@
     transition: 0.3s;
 }
 
-.header a:hover .logo {
+header a:hover .logo {
     color: var(--cor-primaria);
     border: 2px solid var(--cor-primaria)
 }
 
-.header nav ul {
+header nav ul {
     display: flex;
 }
 
-.header nav li a {
+header nav li a {
     font-size: 2rem;
     font-weight: 500;
     padding: 10px 20px;
@@ -35,24 +47,24 @@
     margin: 0.5rem;
 }
 
-.header nav ul li a:hover {
+header nav ul li a:hover {
     background-color: var(--cor-primaria);
 }
 
-.header .menu {
+header .menu {
     display: none;
     width: 6rem;
     height: 6rem;
     align-self: flex-end;
 }
 
-.header nav label {
+header nav label {
     display: flex;
     flex-direction: column;
     cursor: pointer;
 }
 
-.header .hamburguer {
+header .hamburguer {
     background-color: var(--cor-branca);
     position: relative;
     display: block;
@@ -63,8 +75,8 @@
     transition: 0.5s ease-in-out;
 }
 
-.header .hamburguer:before,
-.header .hamburguer:after {
+header .hamburguer:before,
+header .hamburguer:after {
     background-color: var(--cor-branca);
     content: '';
     display: block;
@@ -74,30 +86,30 @@
     transition: 0.5s ease-in-out;
 }
 
-.header .hamburguer:before {
+header .hamburguer:before {
     top: -1rem;
 }
 
-.header .hamburguer:after{
+header .hamburguer:after{
     bottom: -1rem;
 }
 
-.header input {
+header input {
     display: none;
 }
 
-.header input:checked ~ label .hamburguer {
+header input:checked ~ label .hamburguer {
     transform: rotate(45deg);
     background-color: var(--cor-primaria);
 }
 
-.header input:checked ~ label .hamburguer:before {
+header input:checked ~ label .hamburguer:before {
     transform: rotate(90deg);
     top: 0;
     background-color: var(--cor-primaria);
 }
 
-.header input:checked ~ label .hamburguer:after {
+header input:checked ~ label .hamburguer:after {
     transform: rotate(90deg);
     background-color: var(--cor-primaria);
     bottom: 0;

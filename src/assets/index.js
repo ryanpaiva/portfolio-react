@@ -4,6 +4,7 @@ import climaProject from "./clima-project-photo.png"
 import pokedexProject from "./pokedex-api.png"
 import gitApiProject from "./github-api-photo.png"
 import todolistProject from "./todolist-project.png"
+import netflix from './netflix.png'
 
 export {
         fotoPerfil,
@@ -11,5 +12,6 @@ export {
         climaProject,
         pokedexProject,
         gitApiProject,
-        todolistProject
+        todolistProject,
+        netflix
 }

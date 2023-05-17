@@ -2,10 +2,28 @@ import './header.css'
 import '../globals.css'
 import '../variables.css'
 import '../reset.css'
+import React, { useState, useEffect } from 'react'
 
 const Header = () => {
+    const [scrollBlack, setScrollBlack] = useState(false)
+
+    useEffect(() => {
+        const scrollListener = () => {
+            if (window.scrollY > 10) {
+                setScrollBlack(true)
+            } else {
+                setScrollBlack(false)
+            }
+        }
+        window.addEventListener('scroll', scrollListener)
+
+        return () => {
+            window.removeEventListener('scroll', scrollListener)
+        }
+    }, []);
+
     return (
-        <header className="header">
+        <header className={scrollBlack ? 'scrollBlack' : ''} scrollBlack={scrollBlack} >
             <div className="container">
                 <div className="row justify-content-between align-items-center">
                     <a href="#">

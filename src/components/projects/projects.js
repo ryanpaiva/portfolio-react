@@ -1,10 +1,16 @@
 import React from 'react';
 import './projects.css'
 import { ProjectCard } from '../projectCard/projectCard'
-import { climaProject, gitApiProject, pokedexProject, todolistProject, youProject } from '../../assets';
+import { climaProject, gitApiProject, netflix, pokedexProject, todolistProject, youProject } from '../../assets';
 
 function Projects() {
     const projects = [
+        {
+            title: "Netflix Clone",
+            image: netflix,
+            description: "Nesse projeto fiz um clone da página Netflix utilizando React.js",
+            link: "https://netflixclone-tan.vercel.app"
+        },
         {
             title: "You Carrossel",
             image: youProject,
@@ -34,7 +40,7 @@ function Projects() {
             image: todolistProject,
             description: "Neste projeto tive o desafio de construir uma todo list utilizando a tencologia React.JS",
             link: "https://react-todo-list-ryanpaiva.vercel.app"
-        }
+        },
     ];
 
     return (
