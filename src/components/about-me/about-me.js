@@ -23,7 +23,7 @@ const AboutMe = () => {
                     <div className="about-me-info">
                         <p>
                             <strong>
-                                Olá! Me chamo Ryan Paiva e sou um Desenvolvedor Frontend em Formação!
+                                Olá! Me chamo Ryan Paiva e sou um Desenvolvedor Frontend!
                             </strong>
                             Gosto muito da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
                         </p>
@@ -37,7 +37,7 @@ const AboutMe = () => {
                         </p>
 
                         <div className="buttons">
-                            <a href={process.env.PUBLIC_URL + '/archives/RyanTúlioPaiva_DevFrontEnd.pdf'} target="_blank" rel="noopener noreferrer" className="button outer-shadow">
+                            <a href={process.env.PUBLIC_URL + '/archives/RyanTúlioPaiva_DevFrontEnd.docx'} target="_blank" rel="noopener noreferrer" className="button outer-shadow">
                                 Veja meu CV
                             </a>
                         </div>
